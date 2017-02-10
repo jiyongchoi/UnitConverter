@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Length" />
+    <Button
+        android:text="Temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Temperature" />
+    <Button
+        android:text="Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Area" />
+    <Button
+        android:text="Volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Volume" />
+    <Button
+        android:text="Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Weight" />
+    <Button
+        android:text="Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Time" />
+</LinearLayout>

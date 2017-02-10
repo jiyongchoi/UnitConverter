@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">UnitConverter</string>
+    <string name="length_prompt">Choose a Unit</string>
+    <string-array name="LengthSpinnerArray">
+      <item>--Choose a Unit--</item>
+      <item>Metre</item>
+      <item>Kilometre</item>
+      <item>Centimetre</item>
+      <item>Millimetre</item>
+      <item>Mile</item>
+      <item>Yard</item>
+      <item>Foot</item>
+      <item>Inch</item>
+    </string-array>
+
+  <string-array name="WeightSpinnerArray">
+    <item>--Choose a Unit--</item>
+    <item>Kilogram</item>
+    <item>Gram</item>
+    <item>Milligram</item>
+    <item>Pound</item>
+    <item>Ounce</item>
+  </string-array>
+  <string-array name="TemperatureSpinnerArray">
+    <item>--Choose a Unit--</item>
+    <item>Celcius</item>
+    <item>Kelvin</item>
+    <item>Farenheit</item>
+  </string-array>
+
+  <string-array name="TimeSpinnerArray">
+    <item>--Choose a Unit--</item>
+    <item>Second</item>
+    <item>Millisecond</item>
+    <item>Minute</item>
+    <item>Hour</item>
+    <item>Day</item>
+  </string-array>
+  
+  <string-array name="AreaSpinnerArray">
+    <item>--Choose a Unit--</item>
+    <item>Square Metre</item>
+    <item>Hectare</item>
+    <item>Square Foot</item>
+    <item>Acre</item>
+  </string-array>
+  
+  <string-array name="VolumeSpinnerArray">
+    <item>--Choose a Unit--</item>
+    <item>Liter</item>
+    <item>Millileter</item>
+    <item>Gallon</item>
+    <item>Pint</item>
+    <item>Quart</item>
+  </string-array>
+  
+    
+</resources>
