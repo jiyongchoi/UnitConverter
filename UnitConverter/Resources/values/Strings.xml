@@ -50,7 +50,7 @@
   <string-array name="VolumeSpinnerArray">
     <item>--Choose a Unit--</item>
     <item>Liter</item>
-    <item>Millileter</item>
+    <item>Milliliter</item>
     <item>Gallon</item>
     <item>Pint</item>
     <item>Quart</item>

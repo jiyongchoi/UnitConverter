@@ -22,7 +22,7 @@ namespace UnitConverter
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Temperature);
+            SetContentView(Resource.Layout.Time);
             EditText valueToConvert = FindViewById<EditText>(Resource.Id.ValueToConvertTime);
             TextView convertedValue = FindViewById<TextView>(Resource.Id.convertedValueTime);
             Spinner spinnerA = FindViewById<Spinner>(Resource.Id.TimeSpinnerA);
@@ -54,8 +54,8 @@ namespace UnitConverter
         }
 
         /*
-       Event handler for the spinner of original unit 
-       */
+      Event handler for the spinner of original unit 
+      */
         private void timeSpinner_ItemSelectedA(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             Spinner spinner = (Spinner)sender;
@@ -70,7 +70,7 @@ namespace UnitConverter
             else
             {
                 unit_origin = chosenunit;
-                if (!(String.Equals(unit_result, "default", StringComparison.Ordinal)) || string.IsNullOrEmpty(valueToConvert.Text))
+                if (!(String.Equals(unit_result, "default", StringComparison.Ordinal) || string.IsNullOrEmpty(valueToConvert.Text)))
                 {
                     convertedValue.Text = TimeConvert.Convert(unit_origin, unit_result, Convert.ToDouble(valueToConvert.Text)).ToString();
                 }
@@ -79,8 +79,8 @@ namespace UnitConverter
         }
 
         /*
-      Event handler for the spinner of result unit 
-      */
+       Event handler for the spinner of result unit 
+       */
         private void timeSpinner_ItemSelectedB(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             Spinner spinner = (Spinner)sender;
@@ -91,17 +91,16 @@ namespace UnitConverter
             if (String.Equals(chosenunit, choose, StringComparison.Ordinal))
             {
                 unit_result = "default";
+
             }
             else
             {
                 unit_result = chosenunit;
-                if (!(String.Equals(unit_origin, "default", StringComparison.Ordinal)) || string.IsNullOrEmpty(valueToConvert.Text))
+                if (!(String.Equals(unit_origin, "default", StringComparison.Ordinal) || string.IsNullOrEmpty(valueToConvert.Text)))
                 {
                     convertedValue.Text = TimeConvert.Convert(unit_origin, unit_result, Convert.ToDouble(valueToConvert.Text)).ToString();
                 }
             }
-
-
         }
 
     }

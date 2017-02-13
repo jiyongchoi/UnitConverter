@@ -18,7 +18,7 @@ namespace UnitConverter
             {
                 return literResult(resultunit, originvalue);
             }
-            else if (String.Equals(originunit, "Millileter", StringComparison.Ordinal))
+            else if (String.Equals(originunit, "Milliliter", StringComparison.Ordinal))
             {
                 return literResult(resultunit, originvalue / 1000); // convert to liter first 
             }
